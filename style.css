@@ -54,7 +54,7 @@ h1{
 } 
 
 h2{
-   margin: 25px 200px;
+   //margin: 25px 200px;
 }
 
 h3{
@@ -62,7 +62,7 @@ h3{
 }
 
 main{
-  text-align: justify;
+  text-align: center;
 }
 hr {
   display: block;
@@ -77,4 +77,8 @@ hr {
 img{
   height: 10%;
   width: 10%;
+}
+
+.subtitle{
+  align-self: left;
 }
