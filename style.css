@@ -1,0 +1,80 @@
+body{
+background: linear-gradient( to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("images/ocean.jpg");
+font: 20px "Trebuchet MS", Helvetica, sans-serif;
+color: lavenderblush;
+text-align: center;
+
+}
+
+ul{
+  color: lime;
+  list-style-type:circle;
+  display: inline-block;
+}
+
+ol{
+  list-style-type: lower-roman;
+  text-align: center;
+  font: 35px;
+}
+
+footer{
+  font:20px "Trebuchet MS", Helvetica, sans-serif bold;
+  padding: 1px 1px;
+  text-align:  center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* unvisited link */
+a:link {
+  color: fuchsia;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: lime;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+h1{
+  margin: 30px 100px;
+} 
+
+h2{
+   margin: 25px 200px;
+}
+
+h3{
+ margin: 15px 110px -20px ;
+}
+
+main{
+  text-align: justify;
+}
+hr {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: -10px;
+}
+
+img{
+  height: 10%;
+  width: 10%;
+}
