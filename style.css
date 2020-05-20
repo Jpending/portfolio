@@ -7,15 +7,19 @@ text-align: center;
 }
 
 ul{
+  align-content: center;
   color: lime;
   list-style-type:circle;
   display: inline-block;
+  float: block;
 }
 
 ol{
   list-style-type: lower-roman;
-  text-align: center;
-  font: 35px;
+  text-align: justify;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0px 30px 0px;
 }
 
 footer{
@@ -58,7 +62,8 @@ h2{
 }
 
 h3{
- margin: 15px 110px -20px ;
+  align-self: center;
+  //margin: 15px 110px -20px ;
 }
 
 main{
@@ -75,10 +80,18 @@ hr {
 }
 
 img{
-  height: 10%;
-  width: 10%;
+  height: 17%;
+  width: 17%;
+  float: right;
+  margin: 10px 10px;
 }
 
 .subtitle{
   color: lightcyan;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
